@@ -238,19 +238,3 @@ h1, h2, h3 {
         flex-direction: column;
     }
 }
-
-/* attribution */
-.attribution {
-    color: var(--clr-neutral-200);
-    padding-bottom: 2rem;
-}
-
-.attribution a {
-    text-decoration: none;
-    color: var(--clr-primary);
-}
-
-.attribution a:hover {
-    text-decoration: underline;
-    color: var(--clr-neutral-100);
-}
