@@ -4,35 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
+  
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 
 <body>
 
-  <main class="card container">
-    <div class="wrapper content">
+  <main class="card container grid">
+    <div class="wrapper content flex">
 
-      <h1 class="title">Get <span>insights</span> that help your business grow</h1>
-      <p class="subtitle">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+      <h1 class="fw-700 text-white">Get 
+        <span class="text-primary">insights</span> 
+        that help your business grow
+      </h1>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
         experience, and overall efficiency.</p>
 
-      <div class="ratings flex">
-        <div class="rating">
-          <p>10k+</p>
-          <p>companies</p>
+      <div class="ratings flex ff-accent">
+        <div class="rating flow">
+          <h2 class="fw-700 text-white">10k+</h2>
+          <p class="uppercase text-light">companies</p>
         </div>
-        <div class="rating">
-          <p>314</p>
-          <p>templates</p>
+        <div class="rating flow">
+          <h2 class="fw-700 text-white">314</h2>
+          <p class="uppercase text-light">templates</p>
         </div>
-        <div class="rating">
-          <p>12m+</p>
-          <p>queries</p>
+        <div class="rating flow">
+          <h2 class="fw-700 uppercase text-white">12m+</h2>
+          <p class="uppercase text-light">queries</p>
         </div>
       </div>
     </div>
